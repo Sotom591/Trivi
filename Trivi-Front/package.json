@@ -1,5 +1,5 @@
 {
-  "name": "trivia",
+  "name": "trivi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   "dependencies": {
     "boostrap": "^2.0.0",
     "bootstrap-vue": "^2.0.0-rc.15",
+    "lodash": "^4.17.11",
     "vue": "^2.6.6"
   },
   "devDependencies": {

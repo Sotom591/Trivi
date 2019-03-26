@@ -4,7 +4,13 @@
       <b-nav-item disabled>
         <b>Trivi</b>
       </b-nav-item>
-      <b-nav-item disabled>Correct: 2/10</b-nav-item>
+      <b-nav-item disabled>Correct: {{ numCorrect }}/{{ total }}</b-nav-item>
     </b-nav>
   </div>
 </template>
+<script>
+export default {
+  props: ['numCorrect', 'total']
+}
+</script>
+
